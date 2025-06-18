@@ -8,8 +8,8 @@ resources:
 secretGenerator:
 - name: my-repo
   literals:
-  - type: git
-  - url: https://github.com/Pitchouneee/test-argocd
+  - type=git
+  - url=https://github.com/Pitchouneee/test-argocd
   options:
     labels:
       argocd.argoproj.io/secret-type: repository
